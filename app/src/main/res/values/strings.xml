@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">To Do List App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nome_titulo">Titulo da Tarefa</string>
+    <string name="nome_descricao">Descrição da Tarefa</string>
+    <string name="nome_data">Data para realização</string>
+</resources>

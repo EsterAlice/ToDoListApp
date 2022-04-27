@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".fragment.CadTarefaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_titulo"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+       />
+
+    <EditText
+        android:id="@+id/edit_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_descricao"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200" />
+
+
+    <EditText
+        android:id="@+id/edit_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:gravity="start|top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/nome_data"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200" />
+
+    <Button
+        android:id="@+id/button_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione a Data"></Button>
+
+    <Button
+        android:id="@+id/button_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar">
+
+    </Button>
+</LinearLayout>
