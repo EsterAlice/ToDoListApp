@@ -4,4 +4,12 @@
     <string name="nome_titulo">Titulo da Tarefa</string>
     <string name="nome_descricao">Descrição da Tarefa</string>
     <string name="nome_data">Data para realização</string>
+    <string name="fragment_principal">Página Principal</string>
+    <string name="fragment_cad_tarefa">Cadastro de Tarefas</string>
+    <string name="nome_da_tarefa">Estudar JavaScript</string>
+    <string name="nome_data_prevista">02/06/2022</string>
+    <string name="nome_status">Finalizada</string>
+    <string name="nome_status_aberta">Aberta</string>
+    <string name="nome_status_atrasada">Atrasada</string>
+
 </resources>

@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/cadTarefaFragment">
+    app:startDestination="@id/principalFragment">
 
     <fragment
         android:id="@+id/principalFragment"
         android:name="br.ester.sp.cotia.todolistapp.fragment.PrincipalFragment"
-        android:label="fragment_principal"
+        android:label="@string/fragment_principal"
         tools:layout="@layout/fragment_principal" >
         <action
             android:id="@+id/action_principalFragment_to_cadTarefaFragment"
@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/cadTarefaFragment"
         android:name="br.ester.sp.cotia.todolistapp.fragment.CadTarefaFragment"
-        android:label="fragment_cad_tarefa"
+        android:label="@string/fragment_cad_tarefa"
         tools:layout="@layout/fragment_cad_tarefa" />
     <fragment
         android:id="@+id/detalheTarefaFragment"
